@@ -1,0 +1,147 @@
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 16px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0;
+    padding: 0; */
+}
+.container {
+    max-width: 1157px;
+    margin: 0 auto;
+    padding: 15px 30px;
+}
+main {
+    flex-grow: 1;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.button{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    background: #0082F4;
+    border-radius: 6px;
+    border: none;
+    transition: 0.3s;
+}
+.button:hover{
+    opacity: 0.8;
+}
+.button:active{
+    opacity: 0.4;
+}
+
+
+/* HEADER */
+
+.header-container{
+    display: flex;
+    align-items: center;
+    
+}
+.header-logo{
+    flex-shrink: 0;
+    transition: 0.2s;
+}
+.header-logo:hover{
+    opacity: 0.8;
+}
+.header-logo:active{
+    opacity: 0.4;
+}
+.sitenav{
+    margin-left: auto;
+    margin-right: auto;
+}
+.sitenav-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.sitenav-item + .sitenav-item{
+    margin-left: 40px;
+}
+.sitenav-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    transition: 0.3s;
+}
+.sitenav-link-one{
+    color: #0082F4;
+    border-bottom: 1px solid #0082F4;
+}
+.sitenav-link:hover{
+    opacity: 0.8;
+}
+.sitenav-link:active{
+    opacity: 0.4;
+}
+
+
+/* MAIN */
+/* HERO-SECTION */
+.hero{
+    padding-top: 100px;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.hero-text{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #0080FD;
+    margin: 0;
+    padding: 0;
+}
+.hero-heading{
+    font-weight: 700;
+    font-size: 60.55px;
+    line-height: 130%;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+.hero-link-video{
+  margin-left: 64px;
+  align-items: center;
+
+}
+.hero-heading-text{
+    color: #0080FD;
+}
+.hero-desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000; 
+    opacity: 0.6;
+    padding-bottom: 30px;
+    max-width: 436px;
+}
