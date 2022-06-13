@@ -12,15 +12,15 @@ body {
     line-height: 26px;
     font-size: 16px;
     height: 100vh;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    /* margin: 0;
+    margin: 0;
     padding: 0; */
 }
 .container {
     max-width: 1157px;
     margin: 0 auto;
-    padding: 15px 30px;
+    padding: 0px 15px;
 }
 main {
     flex-grow: 1;
@@ -102,7 +102,7 @@ a {
 /* MAIN */
 /* HERO-SECTION */
 .hero{
-    padding-top: 100px;
+    padding-top: 27px;
 }
 .hero-container{
     display: flex;
@@ -129,9 +129,9 @@ a {
     padding-bottom: 20px;
 }
 .hero-link-video{
-  margin-left: 64px;
-  align-items: center;
-
+    margin-left: 64px;
+    align-items: center;
+    
 }
 .hero-heading-text{
     color: #0080FD;
@@ -144,4 +144,44 @@ a {
     opacity: 0.6;
     padding-bottom: 30px;
     max-width: 436px;
+}
+/* PLATFORM-SECTION */
+.platform{
+    padding-top: 154px;
+}
+.platform-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.platform-box{
+    max-width: 503px;
+}
+.platform-text{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #0082F4;
+    padding-bottom: 2px;
+}
+.platform-heading{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 130%;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.platform-desc{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.6;
+    padding-bottom: 30px;
 }
